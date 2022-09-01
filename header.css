@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.header-bar{
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: white;
+  
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  
+}
+
+.insta-font{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: 71px;
+}
+
+.icons{
+  display:flex;
+  align-items: center;
+  
+}
+
+nav > div{
+ margin-right: 2px;
+}
+
+
+
+ .home .home-icon, .message .message-icon, .feed .feed-icon, .explore .explore-icon, .like .like-icon, .profile .profile-icon {
+  height: 30px;
+  width:30px;
+}
+.profile .profile-icon{
+  border-radius: 15px;
+  border: 1px solid rgb(235, 64, 41);
+}
+
+
+
+
+
+
+.search-bar{
+  height: 30px;
+  width: 280px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(209, 209, 209);
+  color: gray;
+}
+
+.search-bar::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-left: 5px;
+  
+}
+
+.search-bar:focus{
+  outline: none;
+  padding-left: 5px;
+}
+
+
+
+.icons img{
+ 
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+
